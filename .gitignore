@@ -19,6 +19,9 @@
 *.rar
 *.tar
 *.zip
+node_modules
+dist
+*.tgz
 
 # Logs and databases #
 ######################

@@ -1,0 +1,40 @@
+import { IBConcept } from '../types';
+
+export const ibConcepts: IBConcept[] = [
+  {
+    id: 'concept-1',
+    category: 'core',
+    key: 'learner_profile',
+    titleEn: 'IB Learner Profile',
+    titleKo: 'IB 학습자상',
+    descriptionEn: 'Attributes that guide students to be inquirers, caring, and principled.',
+    descriptionKo: '학생들이 탐구적이고 배려심 있으며 원칙 있는 사람으로 성장하도록 돕는 핵심 특성입니다.',
+    exampleQuestionEn: 'How do you help students reflect on the learner profile in daily lessons?',
+    exampleQuestionKo: '일상 수업에서 학습자상을 성찰하도록 어떻게 돕고 있나요?',
+    tags: ['profile', 'culture'],
+  },
+  {
+    id: 'concept-2',
+    category: 'pyp',
+    key: 'inquiry_cycle',
+    titleEn: 'Inquiry Cycle',
+    titleKo: '탐구 순환 과정',
+    descriptionEn: 'Tuning in, finding out, sorting, going further, concluding, and taking action.',
+    descriptionKo: '탐구를 시작하고 정보를 정리하며 확장하여 행동으로 이어지는 순환 과정입니다.',
+    exampleQuestionEn: 'Which strategies help younger learners move from finding out to going further?',
+    exampleQuestionKo: '어린 학습자들이 탐구를 확장하도록 돕는 전략은 무엇인가요?',
+    tags: ['inquiry', 'pyp'],
+  },
+  {
+    id: 'concept-3',
+    category: 'assessment',
+    key: 'formative_assessment',
+    titleEn: 'Formative Assessment',
+    titleKo: '형성 평가',
+    descriptionEn: 'Assessment for learning that informs teaching and supports students.',
+    descriptionKo: '학습을 돕고 교수 전략을 조정하기 위한 평가입니다.',
+    exampleQuestionEn: 'What quick checks do you use to gauge understanding during workshops?',
+    exampleQuestionKo: '워크숍 중 이해도를 파악하기 위한 간단한 확인 방법은 무엇인가요?',
+    tags: ['assessment', 'feedback'],
+  },
+];
